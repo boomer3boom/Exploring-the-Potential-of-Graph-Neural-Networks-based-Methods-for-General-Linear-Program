@@ -5,8 +5,8 @@ This framework is arranged as: \
 (1) Generate LP Instance -> (2) Train SIB for initial basis -> (3) Use initial basis and collect pivoting expert's pivot -> (4) train LTP through imitation learning -> (5) test the framework. 
 
 In this case the bipartite graph when training SIB includes: \
-  For Variable nodes: \
-    sfdb
+	For Variable nodes: \
+		sfdb
 
 The files are arranged as followed in order:
 
