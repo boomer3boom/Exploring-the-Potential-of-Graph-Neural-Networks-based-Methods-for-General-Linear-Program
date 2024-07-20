@@ -6,7 +6,11 @@ This framework is arranged as: \
 
 In this case the bipartite graph when training SIB includes: \
 	For Variable nodes: \
-		sfdb
+		feature 1: Objectiv coefficient.\
+  		feature 2: nnz(A)/num_constraints.\
+    	For Constraint nodes: \
+     		feature 1: RHS constraint coefficient.\
+  		feature 2: nnz(A)/num_variables.\
 
 The files are arranged as followed in order:
 
