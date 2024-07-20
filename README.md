@@ -1,5 +1,13 @@
 # Exploring Linear Programs with Graphs and AI
 
+# IPMs-MPNN
+For those who are interested in our experimentation for IPM-MPNN on the combined dataset that contains: Setcover, Indset, Facilities, and Cauction, please refer to (Qian et al., 2023). Our code was a direct replication of theirs except we altered the dataset to contain all four problem type.
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/IPM/objgap.png" alt="Validation Plot" width="500" style="margin-right: 10px;"/>
+  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/IPM/consgap.png" alt="Train Plot" width="500"/>
+</div>
+
 # Ensemble Model of SIB and LTP
 This is a code repository for the attempted survey paper: **Exploring Linear Programs with Graphs and AI**. It outlines the code experimentation on Smart Initial Basis (SIB) and Learn To Pivot (LTP) model for an AI Simplex Method. **Please note this paper is not published and was a student attempt during research internship.**
 
@@ -70,12 +78,4 @@ For Constraint nodes:
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/pivot%20model%20preformance/validation.png" alt="Validation Plot" width="500" style="margin-right: 10px;"/>
   <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/pivot%20model%20preformance/train.png" alt="Train Plot" width="500"/>
-</div>
-
-# IPMs-MPNN
-For those who are interested in our experimentation for IPM-MPNN on the combined dataset that contains: Setcover, Indset, Facilities, and Cauction, please refer to (Qian et al., 2023). Our code was a direct replication of theirs except we altered the dataset to contain all four problem type.
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/IPM/objgap.png" alt="Validation Plot" width="500" style="margin-right: 10px;"/>
-  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/IPM/consgap.png" alt="Train Plot" width="500"/>
 </div>
