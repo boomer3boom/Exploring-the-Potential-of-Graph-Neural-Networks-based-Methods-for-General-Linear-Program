@@ -1,5 +1,8 @@
 # Exploring-Linear-Programs-with-Graphs-and-AI
-This is a code repository for the attempted survey paper:  Exploring Linear Programs with Graphs and AI. It outlines the code experimentation on Smart Iniital Basis and Learn To Pivot model for an AI Simplex Method
+This is a code repository for the attempted survey paper:  Exploring Linear Programs with Graphs and AI. It outlines the code experimentation on Smart Iniital Basis and Learn To Pivot model for an AI Simplex Method.
+
+This framework is arranged as: \
+(1) Generate LP Instance -> (2) Train SIB for initial basis -> (3) Use initial basis and collect pivoting expert's pivot -> (4) train LTP through imitation learning -> (5) test the framework
 
 The files are arranged as followed in order:
 
@@ -11,7 +14,7 @@ SIB/runner2.py (and runner3.py): Trains SIB for primal and slack variables.\
 SIB/test.py: Retrieve the probability of the test dataset from SIB models. \
 SIB/unpack.py: Turn the probability for each basis into a proper basis of 1 and 0s.\
 
-FOR LTP:\\
+FOR LTP:\
 LTP/expert.py: Contains the pivoting expert that pivots an initial basis to the optimal value.\
 LTP/collect_exp_choice.py: Generate a file that contains expert pivot choices.\
 LTP/bipartite_pivot_transform.py: Transform LP instances with expert choice as labels.\
