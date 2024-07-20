@@ -10,7 +10,7 @@ For those who are interested in our experimentation for IPM-MPNN on the combined
 </div>
 
 # Ensemble Model of SIB and LTP
-For those who are interested in our Bipartite graph features, please see the corresponding section. For those who are interested in replicating this experiment please see the Project Structure section as well as the framework description right after this.
+For those who are interested in our Bipartite graph features, please see the corresponding section. For those who are interested in replicating this experiment please see the Project Structure section as well as the framework description right after this. For those who would like to see our validation and training results please see the last section.
 
 The framework of our Ensemble Model is as followed:
 1. Generate LP Instance
