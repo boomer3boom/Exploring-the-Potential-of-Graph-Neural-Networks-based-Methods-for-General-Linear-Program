@@ -62,20 +62,20 @@ For Constraint nodes:
 - `primal.pth`: Our existing primal SIB model.
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/SIB%20Primal/validation.png" alt="Validation Plot" width="500" style="margin-right: 10px;"/>
-  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/SIB%20Primal/train.png" alt="Train Plot" width="500"/>
+  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/SIB%20Primal/validation.png" alt="Validation Plot" width="400" style="margin-right: 10px;"/>
+  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/SIB%20Primal/train.png" alt="Train Plot" width="400"/>
 </div>
 
 - `slack.pth`: Our existing slack SIB model.
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/SIB%20Slack/validation.png" alt="Validation Plot" width="500" style="margin-right: 10px;"/>
-  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/SIB%20Slack/train.png" alt="Train Plot" width="500"/>
+  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/SIB%20Slack/validation.png" alt="Validation Plot" width="400" style="margin-right: 10px;"/>
+  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/SIB%20Slack/train.png" alt="Train Plot" width="400"/>
 </div>
 
 - `pivot_learner.pth`: Our existing LTP model.
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/pivot%20model%20preformance/validation.png" alt="Validation Plot" width="500" style="margin-right: 10px;"/>
-  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/pivot%20model%20preformance/train.png" alt="Train Plot" width="500"/>
+  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/pivot%20model%20preformance/validation.png" alt="Validation Plot" width="400" style="margin-right: 10px;"/>
+  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/pivot%20model%20preformance/train.png" alt="Train Plot" width="400"/>
 </div>
