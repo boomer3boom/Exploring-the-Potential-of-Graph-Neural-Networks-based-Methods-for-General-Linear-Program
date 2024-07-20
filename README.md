@@ -51,6 +51,7 @@ For Constraint nodes:
 
 ## Existing Model:
 - `primal.pth`: Our existing primal SIB model.
-![Framework Overview](Images/SIB Primal/validation.png)![Framework Overview](Images/SIB Primal/train.png)
+  ![Validation Plot](Images/SIB_Primal/validation.png)
+  ![Train Plot](Images/SIB_Primal/train.png)
 - `slack.pth`: Our existing slack SIB model.
 - `pivot_learner.pth`: Our existing LTP model.
