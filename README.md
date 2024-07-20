@@ -4,8 +4,8 @@
 For those who are interested in our experimentation for IPM-MPNN on the combined dataset that contains: Setcover, Indset, Facilities, and Cauction, please refer to (Qian et al., 2023). Our code was a direct replication of theirs except we altered the dataset to contain all four problem type.
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/IPM/objgap.png" alt="Validation Plot" width="500" style="margin-right: 10px;"/>
-  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/IPM/consgap.png" alt="Train Plot" width="500"/>
+  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/IPM/objgap.png" alt="Validation Plot" width="450" style="margin-right: 10px;"/>
+  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/IPM/consgap.png" alt="Train Plot" width="450"/>
 </div>
 
 # Ensemble Model of SIB and LTP
