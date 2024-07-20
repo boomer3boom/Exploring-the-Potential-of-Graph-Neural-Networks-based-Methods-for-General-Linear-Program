@@ -51,7 +51,7 @@ For Constraint nodes:
 
 ## Existing Model:
 - `primal.pth`: Our existing primal SIB model.
-  - ![Validation Plot](https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/SIB%20Primal/validation.png)
-  - ![Train Plot](Images/SIB_Primal/train.png)
+  - <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/SIB%20Primal/validation.png" alt="Validation Plot" width="500"/>
+  - <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/SIB%20Primal/train.png" alt="Train Plot" width="500"/>
 - `slack.pth`: Our existing slack SIB model.
 - `pivot_learner.pth`: Our existing LTP model.
