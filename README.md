@@ -2,7 +2,11 @@
 This is a code repository for the attempted survey paper:  Exploring Linear Programs with Graphs and AI. It outlines the code experimentation on Smart Iniital Basis and Learn To Pivot model for an AI Simplex Method.
 
 This framework is arranged as: \
-(1) Generate LP Instance -> (2) Train SIB for initial basis -> (3) Use initial basis and collect pivoting expert's pivot -> (4) train LTP through imitation learning -> (5) test the framework
+(1) Generate LP Instance -> (2) Train SIB for initial basis -> (3) Use initial basis and collect pivoting expert's pivot -> (4) train LTP through imitation learning -> (5) test the framework. 
+
+In this case the bipartite graph when training SIB includes: 
+For Variable nodes: \
+  sfdb
 
 The files are arranged as followed in order:
 
