@@ -65,3 +65,8 @@ For Constraint nodes:
 </div>
 
 - `pivot_learner.pth`: Our existing LTP model.
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/pivot%20model%20preformance/validation.png" alt="Validation Plot" width="400" style="margin-right: 10px;"/>
+  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/pivot%20model%20preformance/train.png" alt="Train Plot" width="400"/>
+</div>
