@@ -48,3 +48,8 @@ For Constraint nodes:
 - `LTP/pivot_arch.py`: Architecture GCN used for LTP model.
 - `LTP/pivot_runner.py`: Trains the LTP model.
 - `system_test.py`: Test the entire system of SIB + LTP and save the number of correct 1's (in optimal basis).
+
+## Existing Model:
+- `primal.pth`: Our existing primal SIB model.
+- `slack.pth`: Our existing slack SIB model.
+- `pivot_learner.pth`: Our existing LTP model.
