@@ -1,4 +1,5 @@
 # Exploring Linear Programs with Graphs and AI
+This is a code repository for the attempted survey paper: **Exploring Linear Programs with Graphs and AI**. It outlines our experimentation on IPMs-MPNN and the Ensemble Model of SIB and LTP. Please refer to the corresponding section. **Please note this paper is not published and was a student attempt during research internship.**
 
 # IPMs-MPNN
 For those who are interested in our experimentation for IPM-MPNN on the combined dataset that contains: Setcover, Indset, Facilities, and Cauction, please refer to (Qian et al., 2023). Our code was a direct replication of theirs except we altered the dataset to contain all four problem type.
@@ -9,8 +10,6 @@ For those who are interested in our experimentation for IPM-MPNN on the combined
 </div>
 
 # Ensemble Model of SIB and LTP
-This is a code repository for the attempted survey paper: **Exploring Linear Programs with Graphs and AI**. It outlines the code experimentation on Smart Initial Basis (SIB) and Learn To Pivot (LTP) model for an AI Simplex Method. **Please note this paper is not published and was a student attempt during research internship.**
-
 This framework is arranged as:
 1. Generate LP Instance
 2. Train SIB for initial basis
