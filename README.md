@@ -1,6 +1,6 @@
 # Exploring Linear Programs with Graphs and AI
 
-This is a code repository for the attempted survey paper: **Exploring Linear Programs with Graphs and AI**. It outlines the code experimentation on Smart Initial Basis (SIB) and Learn To Pivot (LTP) model for an AI Simplex Method. Please note this paper is not published and was a student attempt during research internship.
+This is a code repository for the attempted survey paper: **Exploring Linear Programs with Graphs and AI**. It outlines the code experimentation on Smart Initial Basis (SIB) and Learn To Pivot (LTP) model for an AI Simplex Method. **Please note this paper is not published and was a student attempt during research internship.**
 
 This framework is arranged as:
 1. Generate LP Instance
