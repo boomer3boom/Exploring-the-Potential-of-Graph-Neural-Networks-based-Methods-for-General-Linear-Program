@@ -1,5 +1,7 @@
-# Exploring Linear Programs with Graphs and AI
-This is a code repository for the attempted survey paper: **Exploring Linear Programs with Graphs and AI**. It outlines our experimentation on IPMs-MPNN and the Ensemble Model of SIB and LTP. Please refer to the corresponding section. **Please note this paper is not published and was a student attempt work during research internship.**
+# Exploring the Potential of Graph Neural Networks-based
+Methods for General Linear Programs
+This is a code repository for the attempted paper: **Exploring the Potential of Graph Neural Networks-based
+Methods for General Linear Programs**. It outlines our experimentation on IPMs-MPNN and the Ensemble Model of SIB and LTP. Please refer to the corresponding section. **Please note this paper is not published and was a student attempt work during research internship.**
 
 # IPMs-MPNN
 For those who are interested in our experimentation for IPM-MPNN on the combined dataset that contains: Setcover, Indset, Facilities, and Cauction, please refer to (Qian et al., 2023). Our code was a direct replication of theirs except we altered the dataset to contain all four problem type.
