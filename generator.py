@@ -18,6 +18,19 @@ def generate_feasible_bounded_lp(m, n):
         remaining_constraints = m - k - j - h
         if remaining_constraints >= 0 and remaining_constraints + k + j + h == m:
             break
+
+    # The code below outlines how small and large problems were generated with respect to inequalities.
+    # rand_n = [ random.random() for i in range(4) ]
+    # # extend the floats so the sum is approximately x (might be up to 3 less, because of flooring) 
+    # result = [ math.floor(i * m / sum(rand_n)) for i in rand_n ] 
+    # # randomly add missing numbers 
+    # for i in range(m - sum(result)): 
+    #     result[random.randint(0,3)] += 1
+
+    # k = result[0]
+    # j = result[1]
+    # h = result[2]
+    # remaining_constraints = result[3]
     
     print(f"Generated constraints: k = {k}, j = {j}, h = {h}, remaining = {remaining_constraints}")
 
