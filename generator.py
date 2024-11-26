@@ -126,6 +126,31 @@ def solve_and_save_lp_instance(instance_index, m, n, output_folder):
              slack_variables=slack_in_basis)
     
     print(f"Instance {instance_index}: Saved LP problem and results.")
+
+def find_average_inequalities(m, n, number):
+    sum_k = 0
+    sum_j = 0
+    sum_h = 0
+    sum_r = 0
+    for n in range(number):
+        while True:
+            first_pick = np.random.randint(200, 550)
+            second_pick = np.random.randint(100, 300)
+            third_pick = np.random.randint(150, 300)
+            #k, j, h, remaing denotes how many <, >, <=, >= there should be in our constraints
+            k = np.random.randint(0, first_pick)
+            j = np.random.randint(0, int((m + 1 - k) / 3) + second_pick)
+            h = np.random.randint(0, int((m + 1 - k - j)/2) + third_pick)
+            remaining_constraints = m - k - j - h
+            if remaining_constraints >= 0 and remaining_constraints + k + j + h == m:
+                break
+        
+        sum_k += k
+        sum_j += j
+        sum_h += h
+        sum_r += remaining_constraints
+    
+    return sum_k/number, sum_j/number, sum_h/number, sum_r/number
     
 
 m_min = 600 
