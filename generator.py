@@ -162,7 +162,7 @@ output_folder = "/home/ac/Learning_To_Pivot/lp_instances2"  # folder to save ins
 
 import os
 os.makedirs(output_folder, exist_ok=True)
-
+print(find_average_inequalities(700, 500, 100000))
 for i in range(num_instances):
     # Randomly choose m between m_min and m_max
     #m = np.random.randint(m_min, m_max + 1)
