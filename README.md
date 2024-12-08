@@ -1,15 +1,10 @@
 # Exploring the Potential of Graph Neural Networks-based
 Methods for General Linear Programs
 This is a code repository for the attempted paper: **Exploring the Potential of Graph Neural Networks-based
-Methods for General Linear Programs**. It outlines our experimentation on IPMs-MPNN and the Ensemble Model of SIB and LTP. Please refer to the corresponding section. **Please note this paper is not published and was a student attempt work during research internship.**
+Methods for General Linear Programs**. It outlines our experimentation on IPMs-MPNN and the Ensemble Model of SIB and LTP. Please refer to the corresponding section. **Please note this paper is not yet published.**
 
 # IPMs-MPNN
 For those who are interested in our experimentation for IPM-MPNN on the combined dataset that contains: Setcover, Indset, Facilities, and Cauction, please refer to (Qian et al., 2023). Our code was a direct replication of theirs except we altered the dataset to contain all four problem type.
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/IPM/objgap.png" alt="Validation Plot" width="400" style="margin-right: 10px;"/>
-  <img src="https://github.com/boomer3boom/Exploring-Linear-Programs-with-Graphs-and-AI/blob/main/Images/IPM/consgap.png" alt="Train Plot" width="400"/>
-</div>
 
 # Ensemble Model of SIB and LTP
 For those who are interested in our Bipartite graph features, please see the corresponding section. For those who are interested in replicating this experiment please see the Project Structure section as well as the framework description right after this. For those who would like to see our validation and training results please see the last section.
