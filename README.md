@@ -1,6 +1,6 @@
 # Exploring the Potential of Graph Neural Networks-based
 Methods for General Linear Programs
-This is a code repository for the paper: https://dl.acm.org/doi/10.1145/3701716.3715174
+This is a code repository for the paper: https://dl.acm.org/doi/10.1145/3701716.3715174 \
 Methods for General Linear Programs**. It outlines our experimentation on IPMs-MPNN and the Ensemble Model of SIB and LTP. Please refer to the corresponding section. 
 
 # IPMs-MPNN
