@@ -1,7 +1,7 @@
 # Exploring the Potential of Graph Neural Networks-based
 Methods for General Linear Programs
 This is a code repository for the paper: https://dl.acm.org/doi/10.1145/3701716.3715174 \
-Methods for General Linear Programs**. It outlines our experimentation on IPMs-MPNN and the Ensemble Model of SIB and LTP. Please refer to the corresponding section. 
+It outlines our experimentation on IPMs-MPNN and the Ensemble Model of SIB and LTP. Please refer to the corresponding section. 
 
 # IPMs-MPNN
 For those who are interested in our experimentation for IPM-MPNN on the combined dataset that contains: Setcover, Indset, Facilities, and Cauction, please refer to (Qian et al., 2023). Our code was a direct replication of theirs except we altered the dataset to contain all four problem type.
